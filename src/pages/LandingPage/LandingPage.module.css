@@ -1,0 +1,45 @@
+.banner {
+  padding-block: 5rem;
+  margin-bottom: 5rem;
+  background: url("../../assets/img/landing_bg.jpg") no-repeat left top/cover;
+}
+
+.banner > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.banner__text {
+  color: #fff;
+}
+
+.banner__turtle {
+  display: flex;
+}
+.banner__turtle img {
+  margin-left: auto;
+  width: 100%;
+  filter: drop-shadow(1rem 2rem 50px rgba(0, 255, 0, 0.25));
+}
+
+.top > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.top__img img {
+  width: min(400px, 80%);
+}
+
+.top__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=LandingPage.module.css.map */

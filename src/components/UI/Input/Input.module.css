@@ -1,0 +1,14 @@
+.inputGroup {
+  width: 100%;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgb(0, 255, 0);
+}
+
+/*# sourceMappingURL=Input.module.css.map */

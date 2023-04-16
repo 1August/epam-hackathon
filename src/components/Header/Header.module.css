@@ -1,0 +1,24 @@
+.header {
+  padding-block: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.header__left img {
+  width: 184px;
+}
+
+.header__btnGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

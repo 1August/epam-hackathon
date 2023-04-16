@@ -1,0 +1,48 @@
+@import "../../assets/css/colors";
+
+.registrationPage{
+  min-height: 100vh;
+}
+
+.registrationPage > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  min-height: 100vh;
+}
+
+.registrationPage__img{
+  background: url("../../assets/img/landing_bg.jpg") no-repeat left top / cover;
+}
+
+.registrationPage__text{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.registrationPage__content{
+  padding: 5% 30% 0;
+}
+
+.form{
+  width: 100%;
+  margin-bottom: 2.5rem;
+
+  display: grid;
+  gap: 1.5rem;
+}
+
+.registrationPage__btnGroup{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.registrationPage__helperText{
+  text-align: center;
+}
+
+.registrationPage__helperText a{
+  color: $lime;
+}

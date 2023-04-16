@@ -1,0 +1,46 @@
+.loginPage {
+  min-height: 100vh;
+}
+
+.loginPage > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+}
+
+.loginPage__img {
+  background: url("../../assets/img/landing_bg.jpg") no-repeat left top/cover;
+}
+
+.loginPage__text {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.loginPage__content {
+  padding: 20% 30% 0;
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+.loginPage__btnGroup {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.loginPage__helperText {
+  text-align: center;
+}
+
+.loginPage__helperText a {
+  color: rgb(0, 255, 0);
+}
+
+/*# sourceMappingURL=LoginPage.module.css.map */

@@ -1,0 +1,29 @@
+@import "../../../assets/css/colors";
+@import "../../../assets/css/mixins";
+
+.button {
+  @include buttonFont;
+
+  padding: .5rem 1.5rem;
+
+  outline: none;
+
+  cursor: pointer;
+
+  &[data-priority='PRIMARY'] {
+    background-color: $lime;
+    border: $white;
+    color: $white;
+  }
+
+  &[data-priority='SECONDARY'] {
+    background-color: $white;
+    border: 2px solid $lime;
+    color: $lime;
+  }
+
+  &:disabled{
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+}

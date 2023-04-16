@@ -1,0 +1,24 @@
+.button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+  outline: none;
+  cursor: pointer;
+}
+.button[data-priority=PRIMARY] {
+  background-color: rgb(0, 255, 0);
+  border: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+.button[data-priority=SECONDARY] {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
+}
+.button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=Button.module.css.map */

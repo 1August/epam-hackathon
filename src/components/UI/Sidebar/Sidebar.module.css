@@ -1,0 +1,31 @@
+.sidebar__container {
+  padding-block: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.25);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.sidebar__logo img {
+  width: 96px;
+}
+
+.sidebar__rows {
+  display: grid;
+  gap: 1rem;
+}
+
+.sidebar__row {
+  color: #000;
+  text-decoration: none;
+}
+.sidebar__row:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 255, 0, 0.5);
+  text-decoration-thickness: 2px;
+  text-decoration-style: wavy;
+}
+
+/*# sourceMappingURL=Sidebar.module.css.map */

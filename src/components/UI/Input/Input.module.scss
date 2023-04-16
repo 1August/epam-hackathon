@@ -1,0 +1,16 @@
+@import "../../../assets/css/colors";
+
+.inputGroup{
+  width: 100%;
+  display: grid;
+  gap: .5rem;
+}
+
+.input{
+  width: 100%;
+  padding: .5rem 1rem;
+
+  outline: none;
+
+  border: 2px solid $lime;
+}
